@@ -1,0 +1,4 @@
+<div *ngFor="let lesson of lessons">
+  <span>{{lesson.title}}</span>
+  <a [routerLink]="['viewer', lesson.id]">View</a>
+</div>
